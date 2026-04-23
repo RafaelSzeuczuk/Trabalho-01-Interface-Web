@@ -5,13 +5,13 @@
 }
 
 html {
-    font-size: 62.5%; 
+    font-size: 62.5%;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
-    color: #FF00252E;
+    color: #00252e;
     line-height: 1.5;
 }
 
@@ -35,18 +35,14 @@ h1, h2 {
     box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.1);
 }
 
-.botao:hover {
-    opacity: 0.8;
-}
-
 .botao-branco {
-    background-color: #FFFFFFFF;
-    color: #FF00252E;
+    background-color: #fff;
+    color: #00252e;
 }
 
 .botao-rosa {
-    background-color: #FFFF52C1;
-    color: #FFFFFFFF;
+    background-color: #ff52bf;
+    color: #fff;
 }
 
 .botao-grande {
@@ -55,10 +51,7 @@ h1, h2 {
 }
 
 .cabecalho {
-    background-color: #FFEBFBFF;
-    background-image: url('images/bg-hero-desktop.svg');
-    background-size: cover;
-    background-position: center;
+    background-color: #ebfbff;
     padding: 4rem 0 6rem;
 }
 
@@ -113,7 +106,7 @@ main {
     margin-bottom: 4rem;
     border-radius: 1.5rem;
     box-shadow: 0 0 2rem rgba(0,0,0,0.05);
-    background-color: #FFFFFFFF;
+    background-color: #fff;
 }
 
 .cartao-recurso.reverso {
@@ -132,7 +125,7 @@ main {
 
 .recurso-texto p {
     font-size: 1.7rem;
-    color: #FF808D99;
+    color: #808e9a;
 }
 
 .recurso-imagem {
@@ -146,7 +139,6 @@ main {
 .container.recursos {
     margin-top: 10rem;
     margin-bottom: 10rem;
-    max-width: 140rem;
 }
 
 .cta-container {
@@ -154,11 +146,11 @@ main {
     justify-content: center;
     margin-bottom: -10rem;
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 
 .cartao-cta {
-    background-color: #FFFFFFFF;
+    background-color: #fff;
     text-align: center;
     padding: 6rem;
     border-radius: 1.5rem;
@@ -173,8 +165,8 @@ main {
 }
 
 .rodape {
-    background-color: #FF00252E;
-    color: #FFFFFFFF;
+    background-color: #00252e;
+    color: #fff;
     padding: 16rem 0 4rem;
 }
 
@@ -220,13 +212,9 @@ main {
 }
 
 .rodape-links a {
-    color: #FFFFFFFF;
+    color: #fff;
     text-decoration: none;
     font-size: 1.6rem;
-}
-
-.rodape-links a:hover {
-    text-decoration: underline;
 }
 
 .rodape-social {
@@ -239,12 +227,11 @@ main {
 .icone-social {
     width: 4rem;
     height: 4rem;
-    border: 0.1rem solid #FFFFFFFF;
+    border: 0.1rem solid #fff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFFFF;
     text-decoration: none;
 }
 
@@ -254,9 +241,6 @@ main {
     filter: brightness(0) invert(1);
 }
 
-.icone-social:hover {
-    border-color: #FFFF52C1;
-}
 .copyright {
     text-align: right;
     font-size: 1.2rem;
