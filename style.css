@@ -1,25 +1,17 @@
-/* Reset e Variáveis */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root {
-    --rosa: hsl(322, 100%, 66%);
-    --ciano-muito-palido: hsl(193, 100%, 96%);
-    --ciano-muito-escuro: hsl(192, 100%, 9%);
-    --azul-acinzentado: hsl(208, 11%, 55%);
-}
-
 html {
-    font-size: 62.5%; /* 1rem = 10px */
+    font-size: 62.5%; 
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
-    color: var(--ciano-muito-escuro);
+    color: #FF00252E;
     line-height: 1.5;
 }
 
@@ -34,30 +26,27 @@ h1, h2 {
     padding: 0 2rem;
 }
 
-/* Botões */
 .botao {
     display: inline-block;
     padding: 1.2rem 5rem;
     border-radius: 3rem;
     text-decoration: none;
     font-size: 1.6rem;
-    transition: transform 0.2s;
     box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.1);
 }
 
 .botao:hover {
     opacity: 0.8;
-    transform: scale(0.98);
 }
 
 .botao-branco {
-    background-color: #fff;
-    color: var(--ciano-muito-escuro);
+    background-color: #FFFFFFFF;
+    color: #FF00252E;
 }
 
 .botao-rosa {
-    background-color: var(--rosa);
-    color: #fff;
+    background-color: #FFFF52C1;
+    color: #FFFFFFFF;
 }
 
 .botao-grande {
@@ -65,9 +54,8 @@ h1, h2 {
     font-size: 1.8rem;
 }
 
-/* Cabeçalho e Hero */
 .cabecalho {
-    background-color: var(--ciano-muito-palido);
+    background-color: #FFEBFBFF;
     background-image: url('images/bg-hero-desktop.svg');
     background-size: cover;
     background-position: center;
@@ -125,7 +113,7 @@ main {
     margin-bottom: 4rem;
     border-radius: 1.5rem;
     box-shadow: 0 0 2rem rgba(0,0,0,0.05);
-    background-color: #fff;
+    background-color: #FFFFFFFF;
 }
 
 .cartao-recurso.reverso {
@@ -144,7 +132,7 @@ main {
 
 .recurso-texto p {
     font-size: 1.7rem;
-    color: var(--azul-acinzentado);
+    color: #FF808D99;
 }
 
 .recurso-imagem {
@@ -161,7 +149,6 @@ main {
     max-width: 140rem;
 }
 
-/* CTA */
 .cta-container {
     display: flex;
     justify-content: center;
@@ -171,7 +158,7 @@ main {
 }
 
 .cartao-cta {
-    background-color: #fff;
+    background-color: #FFFFFFFF;
     text-align: center;
     padding: 6rem;
     border-radius: 1.5rem;
@@ -185,10 +172,9 @@ main {
     margin-bottom: 3rem;
 }
 
-/* Rodapé */
 .rodape {
-    background-color: var(--ciano-muito-escuro);
-    color: #fff;
+    background-color: #FF00252E;
+    color: #FFFFFFFF;
     padding: 16rem 0 4rem;
 }
 
@@ -234,7 +220,7 @@ main {
 }
 
 .rodape-links a {
-    color: #fff;
+    color: #FFFFFFFF;
     text-decoration: none;
     font-size: 1.6rem;
 }
@@ -253,14 +239,13 @@ main {
 .icone-social {
     width: 4rem;
     height: 4rem;
-    border: 0.1rem solid #fff;
+    border: 0.1rem solid #FFFFFFFF;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #FFFFFFFF;
     text-decoration: none;
-    transition: all 0.3s;
 }
 
 .icone-social img {
@@ -270,13 +255,8 @@ main {
 }
 
 .icone-social:hover {
-    border-color: var(--rosa);
+    border-color: #FFFF52C1;
 }
-
-.icone-social:hover img {
-    filter: invert(58%) sepia(82%) saturate(3287%) hue-rotate(301deg) brightness(101%) contrast(101%);
-}
-
 .copyright {
     text-align: right;
     font-size: 1.2rem;
